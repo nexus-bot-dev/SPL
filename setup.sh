@@ -440,9 +440,9 @@ wget -q https://raw.githubusercontent.com/nexus-bot-dev/SPL/main/tools/ins-xray.
 
 #install ins-xray
 echo -e "┌─────────────────────────────────────────┐"
-echo -e " \E[41;1;39m            >>> Install BR <<<           \E[0m$NC"
+echo -e " \E[41;1;39m            >>> Install BR 1 <<<           \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
-wget -q https://raw.githubusercontent.com/AngIMAN/v6/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget -q https://raw.githubusercontent.com/nexus-bot-dev/SPL/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 # // Download Data
 echo -e "${GREEN}Download Data${NC}"
